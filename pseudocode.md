@@ -1,5 +1,9 @@
-# Pseudocode for this program
-(this can be in a flowchart, using bullet points, inserting a picture, etc)
+#Presidential Guessing Game
+
+1) Using a function, assign clues to different presidents
+2) Have compuer randomly choose a president
+3) Tell user they have a certain number of guesses and give one clue every wrong guess they have
+4) If they guess it correctly, the game is over, if they don't, they get one big clue and one more guess
 
 Below are templates for flowcharts and mardown. feel free to edit them - or delete them and do something else if you prefer.
 
