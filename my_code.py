@@ -34,10 +34,17 @@ def pres_info(hint_1, hint_2, hint_3, hint_4, hint_5, error_message, right_answe
         print("Which president do you. think this is?: ")
         answer5 = input()
     elif answer4 == right_answer:
-        print("Which president do you. think this is?: ")
+        print("Which president do you think this is?: ")
     if answer5 != right_answer:
         print("I'm sorry, you're out of guesses")
+    elif answer5 == right_answer:
+        print("Congratulations, that was the right answer!")
 
 
+pres_info("He was the first African American president ever elected", "His VP was Joe Biden", 
+"He was a senator from Illinois before becoming president", "He was born in Honolulu", 
+"He was elected to two terms as president", "Wrong answer, please guess again", "Barack Obama")
 
-pres_info("He was black", "He is red", "He likes flowers", "He smells bad", "aaahhhh", "Please guess again", "Obama")
+pres_info("This former president was born on February 12, 1809", "This man was president for 4 years", 
+"He was one of four presidents ever assasinated", "He was the tallest president ever elected",
+"This man was known for his tophat and beard", "Wrong answer, please guess again", "Abraham Lincoln")
