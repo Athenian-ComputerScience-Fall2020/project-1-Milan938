@@ -1,5 +1,8 @@
 # Collaborators (including web sites where you got help: (enter none if you didn't need help)
-#  None so far
+#  Megan, Adrian, Parker
+
+#FOR MEGAN: I'M NOT SURE WHERE TO PUT MY TRY AND EXCEPT, I TRIED A FEW DIFFERENT PLACES BUT ALL OF THEM
+#SAID THERE WAS AN ERROR. ALSO NOT SURE WHERE I CAN PUT MY WHILE AND FOR LOOPS
 import random
 
 def pres_info(president):
@@ -30,7 +33,7 @@ def pres_info(president):
                 print("Which president do you think this is?: ")
                 answer4 = input()
                 if answer4 == president[6]:
-                    print("Which president do you think this is?: ")
+                    print("Congratulations, that was the right answer ")
                 elif answer4 != president[6]:
                     print(president[5])
                     print(president[4])
@@ -40,6 +43,9 @@ def pres_info(president):
                         print("Congratulations, that was the right answer!")
                     elif answer5 != president[6]:
                         print("I'm sorry, you're out of guesses")
+
+                        
+#Takes all inputs and walks user through hints if answers are wrong
 
 
 choice = random.randint(1, 4)
@@ -61,6 +67,7 @@ teddy = ["This man remains the youngest president who took office", "He became p
 "He was shot before a campaign speech in Milwaukee", "He remains the only president to serve more than two terms",
 "His nickname the name for a stuffed bear", "I'm sorry, that wasn't right, please guess again",
 "Teddy Roosevelt"]
+# Info about all the presidents in the list format to give hints
 
 if choice == 1:
     pres_info(obama)
@@ -74,3 +81,4 @@ if choice == 3:
 if choice == 4:
     pres_info(taft)
 
+#Randomly chooses number which corresponds to a president
