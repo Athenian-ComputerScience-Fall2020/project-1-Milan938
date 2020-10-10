@@ -5,6 +5,22 @@
 #SAID THERE WAS AN ERROR. ALSO NOT SURE WHERE I CAN PUT MY WHILE AND FOR LOOPS
 import random
 
+print("Would you like to play, Yes or No?")
+try:    
+    want_to_play = str(input())
+    while want_to_play != "Yes":
+        print("Please say Yes")
+        want_to_play = str(input())
+except:
+    print("Please say Yes or No")    
+#I made the while loop and it works well, but I'm not sure what I'm doing wrong with the try and except. 
+#I made the inputs strings so if someone types in an integer it would give the except message, do you see where 
+#I should put it in the code?
+
+print("Your game will begin in:")
+for x in range(5, 0, -1):
+    print(x)
+
 def pres_info(president):
     print("You will be given a hint and a guess. If you guess wrong, you get another hint and guess. ", 
     "You will keep getting hints and guesses until you have guessed 5 times.")
