@@ -5,14 +5,14 @@
 #SAID THERE WAS AN ERROR. ALSO NOT SURE WHERE I CAN PUT MY WHILE AND FOR LOOPS
 import random
 
-print("Would you like to play, type '1' for Yes or '2' for No?")
+print("Type '1' to start your game")
 try:    
     want_to_play = int(input())
     while want_to_play != 1:
         print("Please press 1")
         want_to_play = int(input())
 except:
-    print("Please type '1' or '2' ")    
+    print("Please type '1'")    
     please_play = int(input())
 
 #I made the while loop and it works well, but I'm not sure what I'm doing wrong with the try and except. 
