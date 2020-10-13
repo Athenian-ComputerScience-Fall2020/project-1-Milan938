@@ -5,6 +5,8 @@
 3) Tell user they have a certain number of guesses and give one clue every wrong guess they have
 4) If they guess it correctly, the game is over, if they don't, they get one big clue and one more guess
 
+The try/except corrects bad inputs while prompting the user to answer again if they enter a bad input. 
+
 Below are templates for flowcharts and mardown. feel free to edit them - or delete them and do something else if you prefer.
 
 # Markdown
